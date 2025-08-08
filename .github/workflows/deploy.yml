@@ -1,0 +1,11 @@
+name: deploy to server
+
+on:
+  - push
+jobs:
+  deploy:
+    runs-on: ubunto-latest
+
+    steps:
+    - name: hola mundo
+      run: echo hola mundo
